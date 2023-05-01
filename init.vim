@@ -39,11 +39,13 @@ Plug 'preservim/tagbar'
 
 call plug#end()
 
-" ctags settings for nerdtree
+" --------------------------
+
+" ctags settings for NERDTree
 let g:tagbar_ctags_bin = "/opt/homebrew/bin/ctags"
 let g:Tlist_Ctags_Cmd='/opt/homebrew/bin/ctags/5.8_1/bin/ctags'
 
-" NERTTree Key Mapping
+" NERDTree Key Mapping
 nmap <F4> :NERDTree<CR>
 
 " Compile Option and Key Mapping
