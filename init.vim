@@ -49,5 +49,5 @@ nmap <F4> :NERDTree<CR>
 " Compile Option and Key Mapping
 let g:python3_host_prog = 'path/to/python3'
 
-au FileType python nmap <buffer> <F5> :term python3 %<CR>
+au FileType python nmap <buffer> <F5> :term python %<CR>
 au FileType c nmap <buffer> <F5> :term gcc % && ./a.out<CR>
