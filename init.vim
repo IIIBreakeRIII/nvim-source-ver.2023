@@ -37,6 +37,9 @@ Plug 'cohama/lexima.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/tagbar'
 
+" Up - Tab Bar
+Plug 'romgrk/barbar.nvim'
+
 call plug#end()
 
 " --------------------------
