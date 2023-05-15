@@ -1,4 +1,5 @@
 " Basic nvim Set
+set encoding=UTF-8
 syntax on
 set number
 set ruler
@@ -37,6 +38,10 @@ Plug 'cohama/lexima.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/tagbar'
 
+" NERDTree Devicons
+Plug 'ryanoasis/vim-devicons'
+Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+
 " Up - Tab Bar
 Plug 'romgrk/barbar.nvim'
 
@@ -49,7 +54,8 @@ let g:tagbar_ctags_bin = "/opt/homebrew/bin/ctags"
 let g:Tlist_Ctags_Cmd='/opt/homebrew/bin/ctags/5.8_1/bin/ctags'
 
 " NERDTree Key Mapping
-nmap <F4> :NERDTree<CR>
+nmap <A-v> :NERDTree <bar> <CR>
+nmap <A-b> :NERDTreeClose <bar> <CR>
 
 " Compile Option and Key Mapping
 let g:python3_host_prog = 'path/to/python3'
