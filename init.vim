@@ -5,6 +5,7 @@ set number
 set ruler
 set autoindent
 set smartindent
+set nowrap
 set tabstop=2
 set shiftwidth=2
 
@@ -62,3 +63,7 @@ let g:python3_host_prog = 'path/to/python3'
 
 au FileType python nmap <buffer> <F5> :term python %<CR>
 au FileType c nmap <buffer> <F5> :term gcc % && ./a.out<CR>
+
+" annotaion key map
+vmap <A-/> :norm i# <CR>
+imap <A-/> # <CR>
