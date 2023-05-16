@@ -1,23 +1,34 @@
 {
+	"_languageserver" : "Language Server",
+	"languageserver": {
+  "efm": {
+    "command": "efm-langserver",
+    "args": [],
+    // custom config path
+    // "args": ["-c", "/path/to/your/config.yaml"],
+    "filetypes": ["vim", "eruby", "markdown"]
+  	}
+	},
+
 	"suggest.completionItemKindLabels": {
     "method": "  ",
-    "function": "  ",
+    "function": " 󰊕 ",
     "variable": "[]",
-    "field": "  ",
+    "field": "  ",
     "typeParameter": "  ",
     "constant": "  ",
     "class": "  ",
-    "interface": " ﰮ ",
+    "interface": "  ",
     "struct": "  ",
     "event": "  ",
-    "operator": " ﬦ ",
-    "module": "  ",
+    "operator": " 󰆕 ",
+    "module": "  ",
     "property": "  ",
-    "enum": " 練",
-    "reference": "  ",
-    "keyword": "  ",
+    "enum": "  ",
+    "reference": " 󰈇 ",
+    "keyword": " 󰌋 ",
     "file": "  ",
-    "folder": " ﱮ ",
+    "folder": "  ",
     "color": "  ",
     "unit": "  ",
     "snippet": " ﬌ ",
