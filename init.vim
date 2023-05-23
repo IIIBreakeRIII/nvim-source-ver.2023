@@ -67,3 +67,7 @@ au FileType c nmap <buffer> <F5> :term gcc % && ./a.out<CR>
 " annotaion key map
 vmap <A-/> :norm i# <CR>
 imap <A-/> # <CR>
+
+" undo, redo key map
+vmap <A-u> :undo <CR>
+vmap <A-r> :redo <CR>
