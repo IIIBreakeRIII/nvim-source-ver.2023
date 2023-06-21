@@ -70,6 +70,7 @@ imap <A-/> # <CR>
 
 " save key map
 nmap <A-s> :w <CR>
+nmap <A-S> :wq <CR>
 
 " undo, redo key map
 nmap <A-z> :undo <CR>
