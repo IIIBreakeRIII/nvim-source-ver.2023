@@ -84,3 +84,8 @@ nmap <A-S> :wq <CR>
 " undo, redo key map
 nmap <A-z> :undo <CR>
 nmap <A-Z> :redo <CR>
+
+" Flutter-Tools Setup
+lua << EOF
+  require("flutter-tools").setup {} -- use defaults
+EOF
