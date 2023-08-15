@@ -9,6 +9,11 @@ set nowrap
 set tabstop=2
 set shiftwidth=2
 
+" fonts Settings -> italic & Bold fonts
+highlight Comment cterm=italic ctermfg=Grey gui=italic
+highlight Keyword cterm=italic ctermfg=Red gui=italic
+highlight Function cterm=italic ctermfg=LightRed gui=italic
+
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.config/nvim/after')
 
 " Language Server Protocol(LSP) for nvim
@@ -75,6 +80,3 @@ nmap <A-S> :wq <CR>
 " undo, redo key map
 nmap <A-z> :undo <CR>
 nmap <A-Z> :redo <CR>
-
-" comment -> italic fonts
-highlight Comment cterm=italic gui=italic
