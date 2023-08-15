@@ -53,6 +53,7 @@ Plug 'romgrk/barbar.nvim'
 
 " For Flutter
 Plug 'akinsho/flutter-tools.nvim'
+Plug 'stevearc/dressing.nvim'
 
 call plug#end()
 
