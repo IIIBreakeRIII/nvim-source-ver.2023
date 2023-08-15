@@ -10,7 +10,7 @@ set tabstop=2
 set shiftwidth=2
 
 " fonts Settings -> italic & Bold fonts
-highlight Comment cterm=italic ctermfg=Grey gui=italic
+highlight Comment cterm=underline,italic ctermfg=Grey gui=italic
 highlight Keyword cterm=italic ctermfg=Red gui=italic
 highlight Function cterm=italic ctermfg=LightRed gui=italic
 
@@ -50,6 +50,9 @@ Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 
 " Up - Tab Bar
 Plug 'romgrk/barbar.nvim'
+
+" For Flutter
+Plug 'akinsho/flutter-tools.nvim'
 
 call plug#end()
 
