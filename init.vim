@@ -75,3 +75,6 @@ nmap <A-S> :wq <CR>
 " undo, redo key map
 nmap <A-z> :undo <CR>
 nmap <A-Z> :redo <CR>
+
+" comment -> italic fonts
+highlight Comment cterm=italic gui=italic
