@@ -85,6 +85,9 @@ nmap <A-S> :wq <CR>
 nmap <A-z> :undo <CR>
 nmap <A-Z> :redo <CR>
 
+" delete 1 line
+nmap <A-Bs> dd <CR>
+
 " Flutter-Tools Setup
 lua << EOF
   require("flutter-tools").setup {} -- use defaults
