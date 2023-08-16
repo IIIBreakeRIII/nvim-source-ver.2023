@@ -88,6 +88,9 @@ nmap <A-Z> :redo <CR>
 " delete 1 line
 nmap <A-Bs> dd <CR>
 
+" copy to clipboard
+vmap <A-c> :'<, '> :w !pbcopy <CR>
+
 " Flutter-Tools Setup
 lua << EOF
   require("flutter-tools").setup {} -- use defaults
