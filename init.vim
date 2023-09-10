@@ -56,6 +56,9 @@ Plug 'romgrk/barbar.nvim'
 Plug 'akinsho/flutter-tools.nvim'
 Plug 'stevearc/dressing.nvim'
 
+" For Markdown
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 call plug#end()
 
 " --------------------------
