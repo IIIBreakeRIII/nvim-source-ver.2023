@@ -1,5 +1,6 @@
 " Basic nvim Set
 set encoding=UTF-8
+set fileencodings=UTF-8,CP949
 syntax on
 set number
 set ruler
@@ -37,7 +38,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 " lualine
 Plug 'hoob3rt/lualine.nvim'
 
-" Auto Bracket Pairing
+" Auto Bracket Pair
 Plug 'cohama/lexima.vim'
 
 " NerdTree & Tagbar
