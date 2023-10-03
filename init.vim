@@ -27,7 +27,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Auto-Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" telecope.nvim
+" telescope.nvim
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
