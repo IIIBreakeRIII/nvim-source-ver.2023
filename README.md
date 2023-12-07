@@ -12,7 +12,7 @@ My Neovim Source Folders and Files _ver.2023_
 
 Use Plugin by `vim-plug`.
 
-This is command for Unix System
+This is command for Unix System.
 
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
@@ -49,3 +49,10 @@ Below is my __Plugin__ repository.
 * Up - Tab Bar
   * [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)
 
+## $Key Binding$
+
+`< A- >` = Option Key in Mac System
+
+* nmap : Normal Mode
+* vmap : Visual Mode
+* imap : Insert Mode
