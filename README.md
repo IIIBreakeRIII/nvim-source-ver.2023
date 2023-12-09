@@ -2,7 +2,10 @@
 
 My Neovim Source Folders and Files _ver.2023_
 
-<img width="1562" alt="vim-setting" src="https://github.com/IIIBreakeRIII/nvim-source-ver.2023/assets/89850286/d9b77fe8-427b-414e-a3ab-8c9a95182fd2">
+<p align = "center">
+  <img width="1562" alt="vim-setting" src="https://github.com/IIIBreakeRIII/nvim-source-ver.2023/assets/89850286/d9b77fe8-427b-414e-a3ab-8c9a95182fd2">
+  My Neovim Setup
+</p>
 
 ## $Description$
 
