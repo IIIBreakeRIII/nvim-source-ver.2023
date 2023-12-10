@@ -53,7 +53,7 @@ Below is my __Plugin__ repository.
 
 ## $Key Binding$
 
-`< A- >` = Option Key in Mac System
+`< A- >` : Option Key in Mac System
 
 * nmap : Normal Mode
 * vmap : Visual Mode
